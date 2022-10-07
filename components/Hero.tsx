@@ -2,7 +2,7 @@ import React from 'react'
 
 type Props = {}
 
-const Hero = (props: Props) => {
+export default function Hero({ }: Props) {
     return (
         <div>Hero</div>
     )
